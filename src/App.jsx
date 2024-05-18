@@ -77,7 +77,7 @@ function App() {
       <div className="container bg-blue-100 max-w-[100vw] min-h-screen flex">
         <div className="max-md:w-[100vw] max-md:my-0 box bg-blue-300 h-1000 font-bold text-black  rounded-xl h-[100] w-[60vw] mx-auto my-10">
           <p className='max-md:text-3xl max-md:mx-2 my-6 mx-[40px] text-5xl'>Add your Todos...</p>
-          <input id='textInput' onChange={HandleChange} value={todo} className="max-md:w-[75vw] max-md:mx-0 mx-20 mt-10 w-[66%] text-2xl rounded-xl h-10" type="text" placeholder='Enter Here'/>
+          <input id='textInput' onChange={HandleChange} value={todo} className="max-md:w-[75vw] max-md:mx-0 mx-20 mt-10 w-[66%] text-2xl rounded-xl h-10 p-5" type="text" placeholder='Enter Here'/>
           <button type='submit' onClick={HandleAdd} className='bg-green-600 text-white w-20 rounded-xl h-10 max-md:mx-2'>Save</button>
           <p className='mx-20 text-red-700 invisible' id='warning'>Write Something!!!!!!</p>
           <p className="mx-20 text-2xl my-8">Your Todos</p>
